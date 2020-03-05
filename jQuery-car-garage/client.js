@@ -31,11 +31,15 @@ function addNewCar() {
   let userMake = $('#inputMake').val();
   let userModel = $('#inputModel').val();
   let userSrc = $('#inputImage').val();
+  console.log(userYear, userMake, userModel);
+  if (userYear !== '' && userMake !== '' && userModel !== '') {
   newCar(userYear, userMake, userModel);
   let img = $('<img src=' + userSrc + '>');
   $('#display').append(img);
-
   displayCars();
+  } else {
+    alert('type a year, make, and model');
+  }
 
 }
 
@@ -56,7 +60,6 @@ function displayCars() {
     $('#inputImage').val('');
   }
 };
-
 
 class Car {
   constructor(year, make, model) {
