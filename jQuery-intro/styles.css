@@ -1,0 +1,14 @@
+body {
+  background-color: burlywood;
+  color: darkslategray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: brown;
+  display: none;
+}
+
+h2 {
+  background-color: bisque;
+}
