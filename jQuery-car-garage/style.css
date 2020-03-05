@@ -25,6 +25,10 @@ button {
   color: white;
 }
 
+input:disabled {
+  background: #ccc;
+}
+
 
 
 
