@@ -40,9 +40,22 @@ input, button {
 
 button {
   font-weight: bold;
-  background-color: lightgreen;
+  font-size: 1rem;
+  background-color: rgb(169, 236, 169);
 }
 
+button:focus {
+  background-color: gray;
+  outline: none;
+}
+
+.bonusArray {
+  background-color: rgb(169, 236, 169);
+  border: none;
+  margin: .5rem;
+  padding-left: 1rem;
+  font-weight: bold;
+}
 
 
 
